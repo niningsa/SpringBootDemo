@@ -18,7 +18,7 @@ public class GirlController {
 
     /**
      * 查询所有女生列表
-     * @return
+     * @return girl实例
      */
     @GetMapping("/girls")
     public Result<Girl> getGirlList() {
